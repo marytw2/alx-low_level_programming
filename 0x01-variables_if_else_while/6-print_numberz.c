@@ -3,20 +3,17 @@
 /**
  * main - Entry point
  *
- *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char alpha;
+	int i;
 
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	for (i = 48; i < 58 ; i++)
 	{
-		putchar(alpha);
+		putchar(i);
 	}
-		putchar('\n');
 
+	putchar('\n');
 	return (0);
-
 }

@@ -6,17 +6,14 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char alpha;
+	int num;
 
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	for (num = 0; num < 10; num++)
 	{
-		putchar(alpha);
+		printf("%d", num);
 	}
-		putchar('\n');
-
+	printf("\n");
 	return (0);
-
 }
